@@ -1,0 +1,101 @@
+/* Red borders on visible elements - handy for debugging */
+/** { border: 1px solid red; }*/
+
+:root {
+    --bg-color: #223030;
+    --text-color: #dddddd;
+    --bg-image: url("assets/bg.png");
+    --SHORTCUT_TIMEOUT: 2.0s;
+}
+body {
+    padding: 0;
+    margin: 0;
+
+    background: var(--bg-image);
+    background-color: var(--bg-color);
+    background-size: cover;
+    color: var(--text-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+    user-select: none;
+    animation: fadein 2.0s;
+}
+
+#logo {
+    padding-top: 10vh;
+    text-align: center;
+}
+#logo h1 {
+    font-weight: 200;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#logo h2 {
+    font-weight: 200;
+    font-size: 2.3rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+#content {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.group {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 17%;
+    padding: 1% 3%;
+}
+.group h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--text-color);
+}
+.group p {
+    margin-bottom: 0;
+    padding: 0.3rem 0;
+}
+.group p + p {
+    margin: 0;
+}
+
+.shortcut {
+    float: right;
+    opacity: 0;
+    animation: pulse var(--SHORTCUT_TIMEOUT);
+}
+
+a, a:hover {
+    transition: all 0.4s ease;
+}
+a {
+    padding: 0.3rem 0;
+    color: var(--text-color);
+    text-decoration: none;
+
+    opacity: 0.7;
+    padding-left: 0;
+}
+.group a:hover {
+    opacity: 1;
+    padding-left: 0.5rem;
+    color: rgb(252,118,106)
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes pulse {
+    0% { opacity: 0; }
+    20% { opacity: 0.3; }
+    80% { opacity: 0.3; }
+    100%   { opacity: 0; }
+}
