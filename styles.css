@@ -2,7 +2,7 @@
 /** { border: 1px solid red; }*/
 
 :root {
-    --bg-color: #223030;
+    --bg-color: #000000;
     --text-color: #dddddd;
     --bg-image: url("assets/bg.png");
     --SHORTCUT_TIMEOUT: 2.0s;
