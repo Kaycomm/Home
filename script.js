@@ -20,7 +20,7 @@ const MASTER_MAP = [
             {"name": "Email", "shortcutKey": "q", "url": "https://mail.google.com/mail/u/0/#inbox"},
             {"name": "Banking", "shortcutKey": "w", "url": "https://www.chase.com/"},
             {"name": "Fidelity", "shortcutKey": "e", "url": "ttps://www.fidelity.com/profile/"},
-            {"name": "Tenno Tools", "shortcutKey": "r", "url": "https://tenno.tools/"}
+            {"name": "PenFed", "shortcutKey": "r", "url": "https://www.penfed.org/"}
         ]
     },
     {
