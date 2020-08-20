@@ -9,9 +9,9 @@ const MASTER_MAP = [
         "groupName": "School",
         "items":[
             {"name": "Drive", "shortcutKey": "1", "url": "https://drive.google.com/drive/u/0/"},
-            {"name": "WebAdvisor", "shortcutKey": "2", "url": "https://valleycollege.edu/webadvisor"},
-            {"name": "Github", "shortcutKey": "3", "url": "https://github.com/"},
-            {"name": "Midnight", "shortcutKey": "4", "url": "https://midnight.pub/"}
+            {"name": "Canvas", "shortcutKey": "2", "url": "https://sbccd.instructure.com/"},
+            {"name": "WebAdvisor", "shortcutKey": "3", "url": "https://valleycollege.edu/webadvisor"},
+            {"name": "Github", "shortcutKey": "4", "url": "https://github.com/"}
         ]
     },
     {
@@ -36,10 +36,11 @@ const MASTER_MAP = [
     {
         "groupName": "Boards",
         "items":[
-            {"name": "/A/", "shortcutKey": "z", "url": "https://boards.4channel.org/a/"},
-            {"name": "/G/", "shortcutKey": "x", "url": "https://boards.4channel.org/g/"},
-            {"name": "/VG/", "shortcutKey": "c", "url": "https://boards.4channel.org/vg/"},
-            {"name": "/JP/", "shortcutKey": "v", "url": "https://boards.4channel.org/jp/"}
+            {"name": "Midnight", "shortcutKey": "z", "url": "https://midnight.pub/"},
+            {"name": "/A/", "shortcutKey": "x", "url": "https://boards.4channel.org/a/"},
+            {"name": "/G/", "shortcutKey": "c", "url": "https://boards.4channel.org/g/"},
+            {"name": "/VG/", "shortcutKey": "v", "url": "https://boards.4channel.org/vg/"},
+            {"name": "/JP/", "shortcutKey": "b", "url": "https://boards.4channel.org/jp/"}
          ]
     }
 ]
