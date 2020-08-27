@@ -2,16 +2,17 @@ const NAME = "Kay";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 const SHORTCUT_STARTER = 'tab' 
-const SHORTCUT_TIMEOUT = 1500;
+const SHORTCUT_TIMEOUT = 2500;
 
 const MASTER_MAP = [
     {
         "groupName": "School",
         "items":[
-            {"name": "Drive", "shortcutKey": "1", "url": "https://drive.google.com/drive/u/0/"},
-            {"name": "Canvas", "shortcutKey": "2", "url": "https://sbccd.instructure.com/"},
-            {"name": "WebAdvisor", "shortcutKey": "3", "url": "https://valleycollege.edu/webadvisor"},
-            {"name": "Github", "shortcutKey": "4", "url": "https://github.com/"}
+            {"name": "Canvas", "shortcutKey": "1", "url": "https://sbccd.instructure.com/"},
+            {"name": "School Drive", "shortcutKey": "2", "url": "https://drive.google.com/drive/u/2/"},
+            {"name": "Personal Drive", "shortcutKey": "3", "url": "https://drive.google.com/drive/u/0/"},
+            {"name": "WebAdvisor", "shortcutKey": "4", "url": "https://valleycollege.edu/webadvisor"},
+            {"name": "Github", "shortcutKey": "5", "url": "https://github.com/"}
         ]
     },
     {
